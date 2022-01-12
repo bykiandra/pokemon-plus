@@ -2,13 +2,19 @@
   "name": "pokemon-plus",
   "version": "1.0.0",
   "description": "Get Pokémon names, including other forms and variants.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "license": "MIT",
+  "author": {
+    "name": "Kiandra Ginevra",
+    "email": "crownedfoxes@gmail.com",
+    "url": "https://kiandraginevra.dev"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/crownedfoxes/pokemon-plus.git"
+  },
+  "homepage": "https://github.com/crownedfoxes/pokemon-plus#readme",
+  "scripts": {
+    "test": "ava"
   },
   "keywords": [
     "pokemon",
@@ -17,13 +23,10 @@
     "array",
     "random"
   ],
-  "author": "Kiandra Ginevra",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/crownedfoxes/pokemon-plus/issues"
-  },
-  "homepage": "https://github.com/crownedfoxes/pokemon-plus#readme",
   "dependencies": {
     "pokemon": "^2.3.0"
+  },
+  "devDependencies": {
+    "ava": "^4.0.1"
   }
 }
