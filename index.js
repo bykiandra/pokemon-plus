@@ -38,6 +38,24 @@ const galarianForms = [
   'Darumaka-galar',
   'Darmanitan-galar',
 ]
+const hisuianForms = [
+  'Growlithe-hisui',
+  'Arcanine-hisui',
+  'Voltorb-hisui',
+  'Electrode-hisui',
+  'Typhlosion-hisui',
+  'Qwilfish-hisui',
+  'Sneasel-hisui',
+  'Samurott-hisui',
+  'Lilligant-hisui',
+  'Zorua-hisui',
+  'Zoroark-hisui',
+  'Braviary-hisui',
+  'Sliggoo-hisui',
+  'Goodra-hisui',
+  'Avalugg-hisui',
+  'Decidueye-hisui'
+]
 
 const silvallyForms = [
   'Silvally-normal',
@@ -85,6 +103,7 @@ const pokemonPlus = [
   ...pokemon.all(),
   ...alolanForms,
   ...galarianForms,
+  ...hisuianForms,
   ...silvallyForms,
   ...arceusForms,
 ]
@@ -94,6 +113,7 @@ const getList = (type) => {
     all: pokemonPlus,
     alola: alolanForms,
     galar: galarianForms,
+    hisui: hisuianForms,
     silvally: silvallyForms,
     arceus: arceusForms,
   }
