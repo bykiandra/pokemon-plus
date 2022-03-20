@@ -1,5 +1,5 @@
 # Pokemon Plus
-Get Pokémon names, including Alolan, Galarian and Hisiuan variants, and the various forms of Silvally and Arceus.
+Get Pokémon names, including Alolan, Galarian and Hisuian variants, and the various forms of Silvally and Arceus.
 
 ## Install
 ```

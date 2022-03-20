@@ -38,6 +38,7 @@ const galarianForms = [
   'Darumaka-galar',
   'Darmanitan-galar',
 ]
+
 const hisuianForms = [
   'Growlithe-hisui',
   'Arcanine-hisui',
