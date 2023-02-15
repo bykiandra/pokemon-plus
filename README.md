@@ -1,5 +1,5 @@
 # Pokemon Plus
-Get Pokémon names, including Alolan, Galarian and Hisuian variants, and the various forms of Silvally and Arceus.
+Get Pokémon names, including Alolan, Galarian, Hisuian and Paldean variants, and the various forms of Silvally and Arceus.
 
 ## Install
 ```
@@ -24,7 +24,7 @@ Get all Pokémon names as a `string[]`
 #### sublist
 Type: `string`  
 Default: `all`  
-Options: `alola`, `galar`, `hisui`, `silvally`, `arceus`
+Options: `alola`, `galar`, `hisui`, `paldea`, `silvally`, `arceus`
 
 ```js
 pokemonPlus.all();
@@ -39,7 +39,7 @@ Get random Pokémon name
 #### sublist
 Type: `string`  
 Default: `all`  
-Options: `alola`, `galar`, `hisui`, `silvally`, `arceus`
+Options: `alola`, `galar`, `hisui`, `paldea`, `silvally`, `arceus`
 
 ```js
 pokemonPlus.random();
