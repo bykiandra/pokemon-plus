@@ -58,6 +58,13 @@ const hisuianForms = [
   'Decidueye-hisui'
 ]
 
+const paldeanForms = [
+  'Tauros-paldea',
+  'Tauros-blaze-paldea',
+  'Tauros-aqua-paldea',
+  'Wooper-paldea'
+]
+
 const silvallyForms = [
   'Silvally-normal',
   'Silvally-fire',
@@ -105,6 +112,7 @@ const pokemonPlus = [
   ...alolanForms,
   ...galarianForms,
   ...hisuianForms,
+  ...paldeanForms,
   ...silvallyForms,
   ...arceusForms,
 ]
@@ -115,6 +123,7 @@ const getList = (type) => {
     alola: alolanForms,
     galar: galarianForms,
     hisui: hisuianForms,
+    paldea: paldeanForms,
     silvally: silvallyForms,
     arceus: arceusForms,
   }
